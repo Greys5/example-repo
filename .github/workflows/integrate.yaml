@@ -10,9 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-        with:
-          node-version: 10
-     # - run: npm install
-      - run: npm ci #correr instalación limpian
-      #- run: npm test #hacer validaciones de la funcion
-      - run: npm run buil #correr funcion
+        #with:
+         # node-version: 10
+      #- run: install npm
+      #- run: npm ci #correr instalación limpian
+      - run: npm test  #hacer validaciones de la funcion
+      - run: npm run build #correr funcion
