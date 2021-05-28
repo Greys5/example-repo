@@ -1,0 +1,14 @@
+{
+    "name": "github-actions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "suma.js"
+    "scripts": {
+        "test": "jest",
+        "build": "node suma"
+    },
+    "repository": {
+        "type": "git"
+        "url": "git"
+    }
+}
