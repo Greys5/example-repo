@@ -13,8 +13,6 @@ jobs:
         with:
           node-version: 10
 
-scripts:
-  
       - run: install npm
       - run: npm ci #correr instalación limpian
       - run: npm test #"echo \"Error: no test specified\" && exit 1" #hacer validaciones de la funcion
