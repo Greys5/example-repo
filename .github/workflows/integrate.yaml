@@ -15,5 +15,5 @@ jobs:
 
       # - run: npm init
       - run: npm ci #correr instalación limpian
-      - run: npm test #hacer validaciones de la funcion
+      - run: npm test "echo \"Error: no test specified\" && exit 1" #hacer validaciones de la funcion
       - run: npm run build #correr funcion
